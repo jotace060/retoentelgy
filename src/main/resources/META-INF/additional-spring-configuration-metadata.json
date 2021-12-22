@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "endpoint",
+      "type": "java.lang.String",
+      "description": "Description for endpoint."
+  }
+] }
