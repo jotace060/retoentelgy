@@ -8,7 +8,7 @@ public class User {
     public int total;
     public int total_pages;
     public List<Data> data;
-    public Support support;
+    public Persona support;
 
 
 }

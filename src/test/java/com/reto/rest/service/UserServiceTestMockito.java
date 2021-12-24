@@ -56,7 +56,7 @@ class UserServiceTestMockito {
     ResponseEntity<User> notFound = new ResponseEntity<>(HttpStatus.NOT_FOUND);
     ResponseEntity<User> forbidden = new ResponseEntity<>(HttpStatus.FORBIDDEN);
     ResponseEntity<User> timeOut = new ResponseEntity<>(HttpStatus.REQUEST_TIMEOUT);
-
+/*
     @Test
     void transDataTest() {
         List<String> data = new ArrayList<String>();
@@ -119,7 +119,7 @@ class UserServiceTestMockito {
                 .thenReturn(badRequest);
         Assert.assertEquals(HttpStatus.BAD_REQUEST, userService.getRequest().getStatusCode());
     }
-
+*/
 }
 
 
